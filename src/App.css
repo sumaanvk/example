@@ -2,16 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -25,14 +16,58 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #e8edee;
+}
+.dropdown{
+  width: 250px;
+  /* background-color: #e8edee; */
+}
+.searchbar{
+ width:300px;
+ 
+ background-color: azure;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#one{
+  display: flex;
+}
+button{
+  border-radius: 15px;
+  gap:30px;
+  margin: 20px;
+  height: 25px;
+  padding: 20px;
+  text-align: center;
+  /* width: 25px; */
+}
+img{
+  margin: 30px;
+  height: 50px;
+  width: 50px;
+}
+b{
+  height: 50px;
+  width: 50px;
+}
+.iconbar{
+  display: inline;
+}
+.cards{
+  height: 300px;
+  width: 350px;
+  border: 2px solid #282c34;
+  box-shadow: 0px 0px 10px 0px;
+  border-radius: 20px;
+  
+}
+.imgcard{
+  height: 150px;
+  width: 150px;
+ 
+}
+.mainpage{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-left: 10px;
 }
